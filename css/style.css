@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+
+}
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+h3{
+    font-size: 1rem;
+}
+
+:root{
+    --primary-color:rgb(68, 65, 65);
+    --secondary-color:#000;
+    --asset-color:#fff;
+}
+.container
+{
+    max-width: 1170px;
+    margin-inline: auto;
+    padding-inline: 15px;
+    overflow: hidden;
+}
+.header-sec{
+    background-color: var(--secondary-color);
+    padding-block: 15px;
+    width: 100%;
+}
+.header-sec img{
+ 
+ 
+    /* background-color: aliceblue; */
+   
+}
+.header-img{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    margin-inline: 45%;
+    transform: translateY(50px);
+    padding: 18px;
+}
+.banner{
+    background-image: url("/image/Rectangle 6228.png");
+    background-position: center;
+    background-size: cover;
+    padding-block: 200px;
+    text-align: center;
+    color:var(--asset-color) ;
+}
+.banner h1{
+    font-weight: 800;
+    font-size: 4rem;
+}
+.banner p{
+    font-size: 2rem;
+}
+.banner a{
+    padding: 12px 25px;
+    background-color: darkgoldenrod;
+    color: #000;
+    border-radius: 50px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.feature-box{
+    background-image: url("/image/Rectangle\ 6380.png");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin-block: 20px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    position: relative;
+    padding-block: 400px;
+}
+.feature-heading{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-inline: 80px;
+    background-color: #000;
+    color: #fff;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    padding-block: 20px;
+    
+}
+.feature-heading h3{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.product-box a{
+    padding: 15px 20px;
+    background-color: #000 !important ;
+    color: #fff  !important ;
+    display: inline-block;
+    border-radius: 6px;
+    margin-top: 10px;
+    width: 80%;
+    
+}
+.product h1{
+    text-align: center;
+    padding-top:20px;
+    margin-top: 20px;
+    
+}
+.product-box{
+    
+    padding-block: 100px;
+    
+    flex-basis: 30%;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  text-align: center;
+  /* opacity: 0.1; */
+
+    
+}
+.product-boxs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 20px;
+    flex-wrap: wrap;
+  width: 100%;
+    
+}
+/* .product-box:nth-child(2){
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),url("/image/Rectangle\ 6384.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+    /* background-image:url("/image/Rectangle\ 6384.png"); */
+   
+    
+
+/* .product-box:nth-child(3){
+    background-image:url("/image/Rectangle\ 6385.png");
+   
+    
+} */
+
+.price1{
+    padding: 10px !important ;
+    color:#000 !important;
+    width: 60px !important;
+    background-color: #fff !important;
+    border-radius: 20px !important;
+
+    
+}
+.footer-box{
+    text-align: center;
+}
+.footer-box a{
+    display: inline-block;
+    padding: 14px 18px;
+    text-decoration: none;
+    background-color: gold;
+    color: #000;
+    border-radius: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.footer-box h3{
+    margin-top: 10px;
+}
+.footer-top{
+    background-color: #5d5757;
+    margin-top: 20px;
+    padding-block: 80px;
+}
+.social-link  {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.social-link i{
+    color: #000;
+    font-size: 20px;
+}
+@media screen and (max-width:576px) {
+ 
+
+.product-boxs{
+   
+ display: block;
+ 
+ margin-bottom: 20px;
+ 
+   
+}
+.feature-heading h3{
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.feature-box {
+   padding-block: 100px;
+}
+.banner h1{
+    font-weight: 800;
+    font-size: 2rem;
+}
+}
+
+.image-container{
+    display: none;
+}
+.image-container img{
+    max-width: 100%;
+}
